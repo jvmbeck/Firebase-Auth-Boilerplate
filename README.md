@@ -2,14 +2,26 @@
 
 Firebase Auth + Pinia + Quasar starter focused on a clean, reusable auth architecture.
 
+## Quick start
+
+1. Install dependencies.
+2. Create your .env file with Firebase config.
+3. Start the app in development mode.
+4. Open /login and sign in.
+5. Confirm authenticated users are redirected away from /login to /.
+6. Confirm unauthenticated users are redirected from protected routes to /login.
+
+```bash
+npm install
+npm run dev
+```
+
 ## Install
 
 ```bash
 npm install
-# or
-pnpm install
-# or
-yarn
+npm install firebase
+npm install dotenv --save
 ```
 
 ## Run
