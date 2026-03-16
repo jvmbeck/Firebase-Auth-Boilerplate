@@ -13,6 +13,8 @@ Firebase Auth + Pinia + Quasar starter focused on a clean, reusable auth archite
 
 ```bash
 npm install
+npm install firebase
+npm install dotenv --save
 npm run dev
 ```
 
@@ -22,12 +24,6 @@ npm run dev
 npm install
 npm install firebase
 npm install dotenv --save
-```
-
-## Run
-
-```bash
-npm run dev
 ```
 
 ## Environment variables
@@ -42,6 +38,12 @@ FIREBASE_STORAGE_BUCKET=your-project.appspot.com
 FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 FIREBASE_APP_ID=your_app_id
 FIREBASE_MEASUREMENT_ID=your_measurement_id
+```
+
+## Run
+
+```bash
+npm run dev
 ```
 
 Notes:
