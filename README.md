@@ -15,7 +15,6 @@ Firebase Auth + Pinia + Quasar starter focused on a clean, reusable auth archite
 npm install
 npm install firebase
 npm install dotenv --save
-npm run dev
 ```
 
 ## Install
